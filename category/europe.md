@@ -1,6 +1,6 @@
 ---
-slug: из Европы
-title: Что то откуда то
+slug: ба, кока кола, и таинственный восточный напиток
+title: Напитки
 section: Store
 layout: category
 menu:
