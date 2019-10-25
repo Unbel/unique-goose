@@ -1,9 +1,10 @@
 ---
-slug: bigplants
-title: Big plants
+slug: Блюда
+title: Те которые основные, и которыми сыт будешь
 section: Store
-menus:
+layout: category
+menu:
   categories:
     weight: 7
-layout: category
+
 ---
