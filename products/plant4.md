@@ -6,7 +6,7 @@ price: "55.99"
 images:
   default:
     thumbnail:
-      optimized: "/images/plant4.webp"
+      optimized: "/images/Камди - ча.jpg"
       fallback: "/images/plant4.jpg"
     original:
       optimized: "/images/plant4-lg.webp"
@@ -27,3 +27,6 @@ layout: product
 # Зеленый соленый
 
 Холеный моленый
+
+с картинками тоже разобраться бы  
+ и айди хз что
