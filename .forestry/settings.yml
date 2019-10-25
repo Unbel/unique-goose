@@ -46,7 +46,7 @@ sections:
   - categories
 - type: document
   path: _data/promotion.json
-  label: Promotion
+  label: Советы
   templates:
   - promotion
 - type: document
