@@ -1,6 +1,6 @@
 ---
-slug: Блюда
-title: Те которые основные, и которыми сыт будешь
+slug: Вкусняйшественные на вынос
+title: Блюда
 section: Store
 layout: category
 menu:
