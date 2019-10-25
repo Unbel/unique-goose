@@ -1,9 +1,11 @@
 ---
-slug: summer
-title: Summer plants
+slug: Это такие комплексные обеды, состоящие из разных блюд, содержащие оптимальное
+  количество витаминов, по советам шеф повара и подразумевающие скидку.
+title: Бизнес ланчи
 section: Store
-menus:
+layout: category
+menu:
   categories:
     weight: 2
-layout: category
+
 ---
