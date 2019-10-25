@@ -1,9 +1,7 @@
 ---
-title: Home
+title: Главная
 isHome: true
 layout: index
+
 ---
-
-# Real, beautiful plants right to your door
-
- 
+# Вкусные сочные  но не хинкали
