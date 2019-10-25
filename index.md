@@ -1,5 +1,5 @@
 ---
-title: Главная forestry
+title: Главная
 isHome: true
 layout: index
 
