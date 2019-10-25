@@ -14,7 +14,7 @@ questions:
 - question: Как происходит заказ?
   answer: 'Вы выбирате товары, и добавляете их в корзину, затем открываете свою корзину
     и заполняете форму для связи и доставки. Оплата курьеру, при доставке. '
-- question: Rapid-fire questions
+- question: Блиц
   answer: 'Q: Why is this Planty theme so beautiful? <br /> A: We hired our first
     designer a couple of months ago. <br /><br /> Q: Why did you build a theme for
     Stackbit? <br /> A: We believe in Stackbit’s promise of opening up the JAMstack
