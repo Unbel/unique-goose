@@ -4,4 +4,4 @@ isHome: true
 layout: index
 
 ---
-# Cookson, вкуси кукси
+# Cookson, достоинство вкуса
