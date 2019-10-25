@@ -24,7 +24,7 @@ sections:
   - page
 - type: document
   path: store.md
-  label: Store
+  label: Меню
   templates:
   - store
 - type: document
