@@ -29,7 +29,7 @@ sections:
   - store
 - type: document
   path: faq.md
-  label: ЧАГО
+  label: тут вопросы и ответы
   templates:
   - faq
 - type: document
