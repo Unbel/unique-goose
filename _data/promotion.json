@@ -2,8 +2,8 @@
   "title": "Комплексные обеды",
   "subtitle": "от 700 р.",
   "image": {
-    "optimized": "images/promo.webp",
-    "fallback": "images/promo.jpg"
+    "optimized": "/images/foot.jpg",
+    "fallback": "/images/foot.jpg"
   },
   "cta": {
     "text": "Узнать больше",
