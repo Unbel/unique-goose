@@ -1,8 +1,8 @@
 ---
-id: '4'
-title: Cras molestie
-description: Maecenas pretium blandit ex id lobortis.
-price: '24.99'
+id: "4"
+title: Вот теперь это кактус
+description: 'Товары, а не страница и папка, '
+price: "55.99"
 images:
   default:
     thumbnail:
@@ -24,8 +24,6 @@ section: Store
 layout: product
 
 ---
-# кактус чтооо
+# Зеленый соленый
 
-чтооооооооооооооооооооооооо
-
-что че закактус чтоооооооо это
+Холеный моленый
