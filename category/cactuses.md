@@ -1,9 +1,11 @@
 ---
-slug: cactuses
-title: Cactuses
+slug: Салаты это как овощи только блюда, как блюдо только овощ. К блюдам, скажу я
+  вам,  самое то
+title: Салаты
 section: Store
-menus:
+layout: category
+menu:
   categories:
     weight: 6
-layout: category
+
 ---
