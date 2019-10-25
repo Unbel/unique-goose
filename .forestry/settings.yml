@@ -11,12 +11,12 @@ sections:
   - config
 - type: document
   path: index.md
-  label: Home
+  label: Главная
   templates:
   - index
 - type: directory
   path: ''
-  label: Page
+  label: Страница
   create: all
   match: "**/*.md"
   exclude: "{README.md,LICENSE.md,index.md,store.md,faq.md,about.md}"
@@ -29,17 +29,17 @@ sections:
   - store
 - type: document
   path: faq.md
-  label: FAQ
+  label: ЧАГО
   templates:
   - faq
 - type: document
   path: about.md
-  label: About
+  label: О компании
   templates:
   - about
 - type: directory
   path: category
-  label: Categories
+  label: Категории
   create: all
   match: "**/*"
   templates:
@@ -56,7 +56,7 @@ sections:
   - testimonials
 - type: directory
   path: products
-  label: Product
+  label: Товары
   create: all
   match: "**/*"
   templates:
