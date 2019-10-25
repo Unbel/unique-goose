@@ -3,7 +3,7 @@ title: ЧАГО
 headline: Behold our FAQ
 introduction: 'Смотрите наиболее часто задаваемые вопросы и ответы про cookson '
 questions:
-- question: Как долго с момента заказа доставят?
+- question: Как долго ждать?
   answer: 'Не быстро, на следующий рабочий день, так что, заказывайте с расчетом на
     будущее! '
 - question: How do refunds and returns work?
