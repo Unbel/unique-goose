@@ -9,10 +9,9 @@ questions:
 - question: А есть ли скидки?
   answer: "ДА! по городу за заказ свыше 600 рублей доставка будет бесплатна!  \nА
     в ближайшие поселения при заказе от 1500 рублей!"
-- question: How do you handle sensitive customer information?
-  answer: "[GDPR](https://media3.giphy.com/media/1FMaabePDEfgk/giphy.gif?cid=790b76115d1fc3ed7656643632f4131f&rid=giphy.gif),
-    am I right? Make sure you’re as transparent as possible with your data handling
-    process. Or, if you’re using Snipcart, just refer to [our ToS and DPA](http://bit.ly/2YJwlyt)."
+- question: Как происходит заказ?
+  answer: 'Вы выбирате товары, и добавляете их в корзину, затем открываете свою корзину
+    и заполняете форму для связи и доставки. Оплата курьеру, при доставке. '
 - question: Rapid-fire questions
   answer: 'Q: Why is this Planty theme so beautiful? <br /> A: We hired our first
     designer a couple of months ago. <br /><br /> Q: Why did you build a theme for
