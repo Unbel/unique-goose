@@ -11,12 +11,12 @@ sections:
   - config
 - type: document
   path: index.md
-  label: Главная
+  label: Главная forestry
   templates:
   - index
 - type: directory
   path: ''
-  label: Страница
+  label: Страница forestry
   create: all
   match: "**/*.md"
   exclude: "{README.md,LICENSE.md,index.md,store.md,faq.md,about.md}"
@@ -24,46 +24,46 @@ sections:
   - page
 - type: document
   path: store.md
-  label: Меню
+  label: Меню forestry
   templates:
   - store
 - type: document
   path: faq.md
-  label: тут вопросы и ответы
+  label: тут вопросы и ответы foretry
   templates:
   - faq
 - type: document
   path: about.md
-  label: О компании
+  label: О компании forestry
   templates:
   - about
 - type: directory
   path: category
-  label: Категории
+  label: Категории forestry
   create: all
   match: "**/*"
   templates:
   - categories
 - type: document
   path: _data/promotion.json
-  label: Советы
+  label: Советы forestry
   templates:
   - promotion
 - type: document
   path: _data/testimonials.json
-  label: Testimonials
+  label: Отызы forestry
   templates:
   - testimonials
 - type: directory
   path: products
-  label: Товары
+  label: Товары foresty
   create: all
   match: "**/*"
   templates:
   - products
 - type: document
   path: _data/menus.yml
-  label: Site Menus
+  label: Веб-сайт Меню forestry
   templates:
   - site_menus
 upload_dir: images
