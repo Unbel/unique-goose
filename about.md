@@ -26,7 +26,9 @@ bulletpoints:
     optimized: images/team.webp
     fallback: images/team.jpg
 layout: about
-
+menu:
+  main:
+    weight: 2
 
 ---
 а тут пустое поле это вообще зачем?

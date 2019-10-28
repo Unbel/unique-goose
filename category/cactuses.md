@@ -4,6 +4,8 @@ slug: Салаты это как овощи только блюда, как бл
 title: Салаты
 section: Store
 layout: category
-
+menu:
+  categories:
+    weight: 6
 
 ---

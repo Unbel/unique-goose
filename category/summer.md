@@ -4,6 +4,8 @@ slug: Это такие комплексные обеды, состоящие и
 title: Бизнес ланчи
 section: Store
 layout: category
-
+menu:
+  categories:
+    weight: 2
 
 ---
