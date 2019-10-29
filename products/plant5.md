@@ -19,7 +19,7 @@ images:
     original:
       optimized: /images/plant5-featured-lg.webp
       fallback: /images/plant5-featured-lg.jpg
-category: блюда
+category: блюдо
 featured: true
 section: Store
 layout: product
