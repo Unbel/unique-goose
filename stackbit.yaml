@@ -480,7 +480,7 @@ models:
         label: Product Menus
         description: Which menus should this page show up in
   site_menus:
-    type: data
+    # type: data
     file: menus.yml
     label: Site Menus
     labelField: null
@@ -528,7 +528,7 @@ models:
         label: Weight
         description: Position for sorting
   page_menus:
-    type: object
+    type: string
     label: Page Menus
     labelField: null
     description: 'Page menus model, defines menus that can be specified from within pages'
