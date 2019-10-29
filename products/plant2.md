@@ -1,6 +1,6 @@
 ---
 id: '2'
-title: Integer porta
+title: Кукси
 description: Suspendisse efficitur eget erat sit amet efficitur.
 price: '99.00'
 images:
@@ -18,7 +18,7 @@ images:
     original:
       optimized: /images/plant2-featured-lg.webp
       fallback: /images/plant2-featured-lg.jpg
-category: cactuses
+category: блюдо
 featured: true
 section: Store
 layout: product

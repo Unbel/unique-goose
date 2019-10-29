@@ -4,4 +4,4 @@ isHome: true
 layout: index
 
 ---
-# Cookson, достоинство вкуса
+# Cookson, повар из сердца Кореи
