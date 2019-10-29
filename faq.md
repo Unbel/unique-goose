@@ -1,6 +1,6 @@
 ---
-title: ЧАГО
-headline: Behold our FAQ
+title: FAQ
+headline: Вопросы и ответы
 introduction: Читайте наиболее часто задаваемые вопросы и ответы про cookson
 questions:
 - question: Как долго ждать?
