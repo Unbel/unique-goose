@@ -21,9 +21,9 @@
     flex: 1;
     width: 0;
     padding: 80px;
-    color: $color_default;
+    // color: $color_default;
     background-color: $color_active;
-    background-size: auto 400%;
+    background-size: auto 800%;
     background-position: center;
     .no-webp & {
         background-image: $background_images_product;
