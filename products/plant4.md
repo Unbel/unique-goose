@@ -1,23 +1,33 @@
 ---
 id: "4"
-title: Вот теперь это кактус
-description: 'Товары, а не страница и папка, '
+title: Камди - ча
+description: 'Вкуснейший салат!!!!! (от 3-х штук)
+Камди - ча
+
+Никто и не догадается, что в составе обычная картошка😉
+Этот салат стоит попробовать✔️
+————————————————
+🌶Цена🌶 100гр - 40р
+Минимальный заказ - 300гр
+'
 price: "55.99"
 images:
   default:
     thumbnail:
       optimized: "/images/Камди - ча.jpg"
-      fallback: "/images/plant4.jpg"
+      fallback: "/images/Камди - ча.jpg"
     original:
-      optimized: "/images/plant4-lg.webp"
-      fallback: "/images/plant4-lg.jpg"
+      optimized: "/images/Камди - ча.jpg"
+      fallback: "/images/Камди - ча.jpg"
+
+      <!-- featured это для фоток с другого ракурса! а пока такую же оставялю! -->
   featured:
     thumbnail:
-      optimized: "/images/plant4-featured.webp"
-      fallback: "/images/plant4-featured.jpg"
+      optimized: "/images/Камди - ча.jpg"
+      fallback: "/images/Камди - ча.jpg"
     original:
-      optimized: "/images/plant4-featured-lg.webp"
-      fallback: "/images/plant4-featured-lg.jpg"
+      optimized: "/images/Камди - ча.jpg"
+      fallback: "/images/Камди - ча.jpg"
 category: блюдо
 featured: false
 section: Store
