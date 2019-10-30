@@ -20,7 +20,7 @@ images:
       optimized: "/images/Камди - ча.jpg"
       fallback: "/images/Камди - ча.jpg"
 
-      <!-- featured это для фоток с другого ракурса! а пока такую же оставялю! -->
+      
   featured:
     thumbnail:
       optimized: "/images/Камди - ча.jpg"
