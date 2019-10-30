@@ -3,8 +3,8 @@
         font-family: $font_family_primairy;
         font-size: $font_size_xlarge;
         line-height: 60px;
-        @include smaller-than-tablet { 
-            font-size: $font_size_large; 
+        @include smaller-than-tablet {
+            font-size: $font_size_large;
             line-height: 42px;
         }
         color: $color_dark_grey;
@@ -19,7 +19,7 @@
             flex-direction: column;
         }
     }
-    
+
     &__head {
         margin-top: $spacing--unit*8;
         margin-bottom: $spacing--unit*10;
@@ -76,7 +76,7 @@
         @include smaller-than-tablet {
             padding: 0;
             font-size: 12px;
-            &:not(:last-child) { margin-bottom: 15px; } 
+            &:not(:last-child) { margin-bottom: 15px; }
         }
     }
 
@@ -102,7 +102,21 @@
             }
         }
     }
-
+    &__background-right {
+        grid-column: 1 / 8;
+        grid-row: 1 / 4;
+        // background-color: $color_default;
+        .no-webp & {
+            background-image: $background_images_secondary;
+        }
+        .webp & {
+            background-image: $background_images_secondary_opt;
+        }
+        background-size: 70%;
+        background-position: calc(50% + 200px) 50%;
+        // background-position-y: -650px;
+        @include smaller-than-tablet { display: none; }
+    }
     &__products {
         width: 100%;
         max-width: 1000px;
