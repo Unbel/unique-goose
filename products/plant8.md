@@ -1,29 +1,37 @@
 ---
 id: "8"
-title: Пиханья
-description: В соусе ммммммммммм устричном
-price: '555.00'
+title: Пигоди
+description: "Пигодя <br>
+
+Очень вкусные и ароматные 😋 .<br>
+ Готовятся они на пару, от чего приобретают воздушную форму ☁️ <br>
+ Сочная начинка и мягкое тесто! 👍<br>
+  ————————————————<br>
+🌶Цена🌶 1 шт - 45р"
+price: '45.00'
 images:
   default:
     thumbnail:
-      optimized: "/images/plant8.webp"
-      fallback: "/images/plant8.jpg"
+      optimized: "/images/пигоди2.jpg"
+      fallback: "/images/пигоди2.jpg"
     original:
-      optimized: "/images/plant8-lg.webp"
-      fallback: "/images/plant8-lg.jpg"
+      optimized: "/images/пигоди.jpg"
+      fallback: "/images/пигоди.jpg"
   featured:
     thumbnail:
-      optimized: "/images/plant8-featured.webp"
-      fallback: "/images/plant8-featured.jpg"
+      optimized: "/images/пигоди2.jpg"
+      fallback: "/images/пигоди2.jpg"
     original:
-      optimized: "/images/plant8-featured-lg.webp"
-      fallback: "/images/plant8-featured-lg.jpg"
-category: summer
-featured: false
+      optimized: "/images/пигоди.jpgp"
+      fallback: "/images/пигоди.jpg"
+category: блюдо
+featured: true
 section: Store
 layout: product
 
 ---
-# Fusce sed
+# Пигодя
 
-Sed consectetur eleifend neque. Morbi fringilla velit neque, quis aliquet diam rutrum eget. Praesent dui leo, iaculis non auctor sed, accumsan at felis. Suspendisse eu pretium justo. Curabitur et velit quis justo elementum iaculis. Fusce sed tortor id diam rhoncus accumsan. In cursus sagittis eros non congue.
+Очень вкусные и ароматные 😋 . Готовятся они на пару, от чего приобретают воздушную форму ☁️ Сочная начинка и мягкое тесто! 👍 ————————————————
+🌶Цена🌶 1 шт - 45р
+————————————————
