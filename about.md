@@ -15,7 +15,7 @@ bulletpoints:
     If you spot any bugs, open an issue, and we’ll fire our junior dev. Just kidding
     Michael, you’re good.
   image:
-    optimized: <iframe src="https://www.instagram.com/p/BuA906VFVeJ/embed/captioned" width="400" height="400" frameborder="3" scrolling="yes" allowtransparency="true"></iframe>images/nan_talk.webp
+    optimized: <iframe src="https://www.instagram.com/p//BtsRlggnoQB/embed/captioned" width="400" height="400" frameborder="3" scrolling="yes" allowtransparency="true"></iframe>images/nan_talk.webp
     fallback: images/nan_talk.jpg
 - title: Полезно и вкусно
   description: Word. But good **code** _can_ solve a lots of problems, too. New _and_
@@ -32,3 +32,4 @@ menu:
 
 ---
 а тут пустое поле это вообще зачем?
+p/BtsRlggnoQB/
