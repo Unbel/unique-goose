@@ -25,7 +25,7 @@ palettes:
       active_dark: '#547567'
       dark_grey: '#273132'
       light_grey: '#6B797A'
-      bg_image_primary_optimized: /images/cosko.webm
+      bg_image_primary_optimized: /images/cosko.webp
       bg_image_primary_fallback: /images/header.jpg
       bg_image_secondary_optimized: /images/leaf-light-grey.svg
       bg_image_secondary_fallback: /images/leaf-light-grey.svg
