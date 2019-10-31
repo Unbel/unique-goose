@@ -13,12 +13,13 @@ layout: body
             {% include nav_categories.html page=page site=site %}
         </nav>
         <section class="store__products">
+          <div class="store__background-right"></div>
             {% assign product_pages = '/products' | get_pages | sort: 'name' %}
 
             {% include product_grid.html product_pages=product_pages cssClass='store__product-grid' %}
         </section>
     </div>
-    <div class="store__background-right"></div>
+
 
     <section class="content__row">
         <h2 class="content__row-title content__row-title--medium">
