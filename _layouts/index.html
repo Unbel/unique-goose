@@ -1,6 +1,68 @@
 ---
 layout: body
 ---
+<script type="text/javascript">
+
+  Snipcart.api.configure('show_continue_shopping', true);
+  Snipcart.execute('config', 'show_continue_shopping', true);
+
+
+  Snipcart.subscribe('page.changed', function (page) {
+      console.log(page);
+      var cart = Snipcart.api.cart.get();
+      if (page == "billing-address")  // ВЫЗОВ ФУНКЦИИ ТОЛЬКО КОГДА billing adress  бля всего то "==" поставил и заработоло кажись
+        {
+          // var billname = cart.customFields[0].value;
+          // console.log(billname);
+          // set Snipcart.api.cart.phone.required = true   хз как это сделать....,
+        // try set billing details here
+         Snipcart.api.cart.billingAddress({
+                        // "name": "кому?",
+                        //"email": "YOUR@MAIL.not.required",
+                        // "address1": "",
+                        "address2": "--------------------",
+                        "city": "Волжский",
+                        "province": "Волгоградская область",
+                        "country": "Россия",
+                        "company": "---------------------",
+                        "postalCode": "-------------------",
+                        "phone" : "+7 - "
+      }).then (function (cart)
+           {
+             console.log (cart); // It will contain the cart details with updated values.
+           });
+
+        }
+
+        //ТУТ ниже для доставки на всякйи случай
+        if (page == "shipping-address")  // ВЫЗОВ ФУНКЦИИ ТОЛЬКО КОГДА shipping adress
+          {
+            // var billname = cart.customFields[0].value;
+            // console.log(billname);
+            // set Snipcart.api.cart.phone.required = true   хз как это сделать....,
+          // try set billing details here
+           Snipcart.api.cart.shippingAddress({
+                          // "name": "кому?",
+                          //"email": "YOUR@MAIL.not.required",
+                          // "address1": "",
+                          "address2": "--------------------",
+                          "city": "Волжский",
+                          "province": "Волгоградская область",
+                          "country": "Россия",
+                          "company": "---------------------",
+                          "postalCode": "-------------------",
+                          "phone" : "+7 - "
+        }).then (function (cart)
+             {
+               console.log (cart); // It will contain the cart details with updated values.
+             });
+}
+//УРААААА а "}" всетаки коварная штучка
+  });
+
+
+</script>
+
 
 <main class="content">
     <section class="content__row content__row--overlap">
