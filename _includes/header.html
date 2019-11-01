@@ -2,45 +2,7 @@
 {% assign site = include.site %}
 {% assign isHome = page.isHome | default: false %}
 
-<div hidden id="snipcart" data-api-key="OWExMjk4YWUtNTBlNS00OTVhLTlmZWMtODQ1MjA4N2QxNGZmNjM2ODk3NjQzNTM5NjU2MTcx">
-    <address-fields>
-        <fieldset class="snipcart__form__set">
-            <div class="snipcart__form__row">
-                <div class="snipcart__form__field snipcart__form__cell--large">
-                    <snipcart-label for="address1">дачеэто</snipcart-label>
-                    <snipcart-input name="address1"></snipcart-input>
-                    <snipcart-error-message name="address1">нуже</snipcart-error-message>
-                </div>
-                <div class="snipcart__form__field form__cell--tidy">
-                    <snipcart-label for="address2">{{ $localize('address_form.address2') }}</snipcart-label>
-                    <snipcart-input name="address2"></snipcart-input>
-                    <snipcart-error-message name="address2">нуже</snipcart-error-message>
-                </div>
-            </div>
-            <div class="snipcart__form__field">
-                <!-- <snipcart-label for="city">{{ $localize('address_form.city') }}</snipcart-label> -->
-                <snipcart-label for="city">даблин</snipcart-label>
-                <snipcart-input name="city">даблин</snipcart-input>
-                <snipcart-error-message name="city">бля</snipcart-error-message>
-            </div>
-            <div class="snipcart__form__field">
-                <snipcart-label for="country">{{ $localize('address_form.country') }}</snipcart-label>
-                <snipcart-typeahead type="dropdown" name="country" display="name"></snipcart-typeahead>
-            </div>
-            <div class="snipcart__form__row">
-                <div class="snipcart__form__field snipcart__form__cell--large">
-                    <snipcart-label for="province">{{ $localize('address_form.province') }}</snipcart-label>
-                    <snipcart-typeahead type="dropdown" name="province" display="name"></snipcart-typeahead>
-                </div>
-                <div class="snipcart__form__field snipcart__form__cell--tidy">
-                    <snipcart-label for="postalCode">{{ $localize('address_form.postalCode') }}</snipcart-label>
-                    <snipcart-input name="postalCode"></snipcart-input>
-                    <snipcart-error-message name="postalCode"></snipcart-error-message>
-                </div>
-            </div>
-        </fieldset>
-    </address-fields>
-</div>
+
 
 <header class="header">
     <nav class="nav{% assign isHome_is_not_empty = isHome | is_not_empty %}{% if isHome_is_not_empty %} nav--light{% endif %}{% if isHome != true %} nav--dark{% endif %}">
