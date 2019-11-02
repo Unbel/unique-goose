@@ -1,7 +1,7 @@
 <!doctype html>
-<html>
-    <head>    
-        
+<html lang="ru">
+    <head>
+
         <title>
             {{ page.title }}
         </title>
@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="{{ site.snipcart_css }}" />
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | relative_url }}">
-        
+
     </head>
     <body>
-        
+
         {{ content }}
         <script src="{{ 'js/main.js' | relative_url }}"></script>
         <script src="{{ site.snipcart_js }}" defer></script>
@@ -28,11 +28,11 @@
                     {% raw %}{{ $localize('actions.continue_shopping') }}{% endraw %}
                   </span>
                 </close-cart-action>
-        
+
                 <h3 class="snipcart-cart-header__title snipcart__font--black snipcart__font--secondary" v-if="title">
                   <img src="{{ site.logos.dark.optimized | relative_url }}" alt="">
                 </h3>
-        
+
                 <div class="snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold">
                   <icon name="cart" class="snipcart-cart-header__icon snipcart__icon--blue-dark"></icon>
                   {% raw %}{{ itemsCount }}{% endraw %}
@@ -59,9 +59,9 @@
                       {% raw %}{{ $localize('actions.continue_shopping') }}{% endraw %}
                     </span>
                   </close-cart-action>
-        
+
                   <img src="{{ site.logos.dark.optimized | relative_url }}" alt="" class="snipcart-modal__logo">
-        
+
                   <div class="snipcart-modal__header-summary">
                     <div
                       class="snipcart-modal__header-summary-title snipcart__font--large snipcart__font--secondary snipcart__font--bold"
@@ -81,5 +81,5 @@
             </div>
           </checkout>
         </div>
-    </body> 
+    </body>
 </html>
