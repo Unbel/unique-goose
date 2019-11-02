@@ -10,6 +10,7 @@ description: "Как давно вы её ели❓ и ели ли❓ (от 3-х
 Минимальный заказ - 300гр
 "
 price: '60.00'
+minQuantity: '3'
 images:
   default:
     thumbnail:
