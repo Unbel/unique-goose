@@ -1,8 +1,10 @@
 baseurl: /
 permalink: '/:title/'
 title: Snipcart
-snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.js'
-snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.css'
+# snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.js'
+# snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.css'
+# snipcart_js:
+# snipcart_css:
 snipcart_api_key: 'OWExMjk4YWUtNTBlNS00OTVhLTlmZWMtODQ1MjA4N2QxNGZmNjM2ODk3NjQzNTM5NjU2MTcx'
 logos:
   light:
