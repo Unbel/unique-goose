@@ -17,11 +17,11 @@
 
         {{ content }}
         <script src="{{ 'js/main.js' | relative_url }}"></script>
-        <script src="{{ site.snipcart_js }}" ></script>
+        <script src="{{ site.snipcart_js }}" defer></script>
 
         <script
     type="text/javascript"
-    src="https://github.com/snipcart/snipcart-localization/blob/master/locales/ru.js" defer></script>
+    src="/locales/ru.js" defer></script>
 
         <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
           <cart-header title="Planty">
