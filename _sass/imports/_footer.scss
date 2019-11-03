@@ -38,8 +38,9 @@
 }
 
   &__legal-notice {
-      display: flex;
-      align-items: center;
+    display: flex;
+justify-content: flex-end;
+      // align-items: center;
       color: $color_medium;
       font-weight: bold;
       margin-left: auto;
