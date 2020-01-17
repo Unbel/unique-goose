@@ -23,7 +23,7 @@
     padding: 80px;
     // color: $color_default;
     background-color: $color_active;
-    background-size: auto 800%;
+    background-size: auto 80%;
     background-position: center;
     .no-webp & {
         background-image: $background_images_product;
@@ -46,7 +46,8 @@
     font-size: $font_size_xlarge;
     margin-top: $spacing--unit*3;
     margin-bottom: $spacing--unit*6;
-    color: #F86728;
+    // color: #F86728;
+    color: red;
     @include smaller-than-tablet {
       font-size: $font_size_medium;
 
