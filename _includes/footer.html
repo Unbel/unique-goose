@@ -4,8 +4,7 @@
 <footer class="footer">
     <div class="footer__container">
         <a href="/">
-            {% set include_dict = {'image': site.params.logos.light, 'cssClass': 'footer__logo', 'alt': 'Planty logo'} %}
-            {% include "picture.html" %}
+            {% include picture.html image=site.logos.light cssClass='footer__logo' alt='Planty logo' %}
         </a>
         <ul class="footer__nav">
             {% for item in menu %}
