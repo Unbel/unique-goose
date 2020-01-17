@@ -10,7 +10,7 @@
     background-color: $color_dark;
     img {
         width: 100%;
-    }
+    }    
   }
 
   &__message-container {
@@ -22,8 +22,8 @@
     width: 0;
     padding: 80px;
     // color: $color_default;
-    background-color: $color_active;
-    background-size: auto 80%;
+    background-color: #6B797A;
+    background-size: auto 100%;
     background-position: center;
     .no-webp & {
         background-image: $background_images_product;
