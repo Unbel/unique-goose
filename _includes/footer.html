@@ -1,15 +1,12 @@
 {% assign page = include.page %}
 {% assign site = include.site %}
 {% assign menu = site.menus.main %}
-
 <footer class="footer">
     <div class="footer__container">
         <a href="/">
-
-            {% include picture.html image=site.logos.light cssClass='footer__logo' alt='Planty logo' %}
-
+            {% set include_dict = {'image': site.params.logos.light, 'cssClass': 'footer__logo', 'alt': 'Planty logo'} %}
+            {% include "picture.html" %}
         </a>
-
         <ul class="footer__nav">
             {% for item in menu %}
             <li class="footer__nav-item">
@@ -19,9 +16,8 @@
             </li>
             {% endfor %}
         </ul>
-
-        <!-- социал  -->
-        <div class="footer-social">
+        <div class="footer__legal-notice"> Copyright 2019 Planty Inc. All rights reserved.</div>
+        <div class="footer-social footer__legal-notice">
           <!-- <h6 class="ftr-hdr">Подписывайтесь</h6> -->
           <ul>
 
@@ -33,20 +29,8 @@
 
           </ul>
         </div>
-        <br>
-
-
-
-
-              <div id="wrapper">
-      <div class="footer-copyright text-center py-3">© 2019 Cookson. Политика конфиденциальности. <br> Создание сайтов <a href="https://jstack.ru">jstack.ru.</a> theme by <a href="https://snipcart.com">snipcart</a></div>
-          </footer>
-
+        <div class="footer-copyright text-center py-3"> © 2019 Cookson. Политика конфиденциальности. <br> Создание сайтов <a href="https://jstack.ru">jstack.ru.</a> theme by <a href="https://snipcart.com">snipcart</a>
+        </div>
 
     </div>
-
-
-<div class="position-fixed border bg-info" style="bottom:10px; right:5px;">
-      .position-fixed (bottom:10px; right:5px;)
-   </div>
 </footer>
