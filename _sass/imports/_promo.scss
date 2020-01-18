@@ -23,7 +23,8 @@
     padding: 80px;
     // color: $color_default;
     // background-color: $color_active;
-    background-size: auto 80%;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
     background-position: center;
     .no-webp & {
         background-image: $background_images_product;
