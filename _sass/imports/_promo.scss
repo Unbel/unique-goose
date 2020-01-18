@@ -46,8 +46,8 @@
     font-size: $font_size_xlarge;
     margin-top: $spacing--unit*3;
     margin-bottom: $spacing--unit*6;
-    color: #F86728;
-
+    // color: #F86728;
+    color: red;
     @include smaller-than-tablet {
       font-size: $font_size_medium;
 
