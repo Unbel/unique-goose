@@ -1,12 +1,12 @@
 {
-  "title": "Комплексные обеды",
-  "subtitle": "от 700 р.",
+  "title": "Комплексные обеды/Бизнес ланчи",
+  "subtitle": "от 300 р.",
   "image": {
     "optimized": "/images/foot.jpg",
     "fallback": "/images/foot.jpg"
   },
   "cta": {
-    "text": "Узнать больше",
+    "text": "Изучить меню",
     "link": "/store"
   }
 }
