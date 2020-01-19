@@ -158,9 +158,9 @@
         justify-content: center;
         align-items: center;
         height: $spacing--unit*13;
-        background-color: $color_active;
+        // background-color: $color_active;
         font-size: $spacing--unit*2;
-        color: white;
+        // color: white;
         .no-webp & {
             background-image: $background_images_product;
         }

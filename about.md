@@ -1,27 +1,15 @@
 ---
-title: О нас
-headline: Мы cookson
-introduction: Well, not really. We’re [Snipcart](http://bit.ly/2YB7AUL)—a bunch of
-  geeks from Québec City. Planty is a theme we built for [Stackbit](https://www.stackbit.com/),
-  a killer JAMstack site-builder. To enable e-commerce on Planty, you’ll need to [sign
-  up for Snipcart](http://bit.ly/2YzKmhP). Testing is forever free, no credit card
-  required.
+title: Доставка
+headline: Cookson
+introduction: Доставка на следующий рабочий день. Часы доставки и приема заказов с 10.00 до 22.00.
 bulletpoints:
-- title: Мы любим покушать
-  description: Now THAT is true, but we love web development even more. We talk about
-    it on our blog, like, [a lot](http://bit.ly/2YA6999). We often craft live demos
-    and open source these bad boys [on GitHub](https://github.com/snipcart). Matter
-    of fact, this Planty theme [is open source too](https://github.com/snipcart/stackbit-theme-planty)!
-    If you spot any bugs, open an issue, and we’ll fire our junior dev. Just kidding
-    Michael, you’re good.
+- title: Доставим к назначенному времени
+  description: Мы приготовим упакуем и привезем заказ.
   image:
     optimized: images/nan_talk.webp
     fallback: images/nan_talk.jpg
-- title: Полезно и вкусно
-  description: Word. But good **code** _can_ solve a lots of problems, too. New _and_
-    old. That’s why we help beginners get started with web development through free
-    content and tools, like this theme. We also believe [the JAMstack](https://jamstack.org/)
-    might be one solid pillar on which we build that future.
+- title: Скидки и акции
+  description: Постоянны акции с бесплатной доставкой от 600 рублей по городу и от 1500 по пригороду. А также иногда случаются и эвенты и розыгрыши скидок. Следите за новостями в нашем <span>[инстаграм канале](https://www.instagram.com/cook_son34/?hl=en)</span>
   image:
     optimized: images/team.webp
     fallback: images/team.jpg

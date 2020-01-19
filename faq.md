@@ -1,10 +1,10 @@
 ---
 title: FAQ
 headline: Вопросы и ответы
-introduction: Читайте наиболее часто задаваемые вопросы и ответы про cookson
+introduction: Часто задаваемые вопросы и ответы про cookson
 questions:
 - question: Как долго ждать?
-  answer: 'Не быстро, на следующий рабочий день, так что, заказывайте с расчетом на
+  answer: 'На следующий рабочий день, так что, заказывайте с расчетом на
     будущее! '
 - question: А есть ли скидки?
   answer: "ДА! по городу за заказ свыше 600 рублей доставка будет бесплатна!  \nА
@@ -15,8 +15,7 @@ questions:
   answer: 'Вы выбирате товары, и добавляете их в корзину, затем открываете свою корзину
     и заполняете форму для связи и доставки. Оплата курьеру, при доставке. '
 - question: Блиц
-  answer: 'Q: Why is this Planty theme so beautiful? <br /> A: We hired our first
-    designer a couple of months ago. <br /><br /> Q: Why did you build a theme for
+  answer: 'Q: Часы работы? <br /> A: Мы развозим и принимаем заказы с 10.00 до 22.00  <br /><br /> Q: Why did you build a theme for
     Stackbit? <br /> A: We believe in Stackbit’s promise of opening up the JAMstack
     to more developers. Plus, we trust these folks. [Read more about Stackbit](http://bit.ly/2YAvGix).
     <br /><br /> Q: How many people work at Snipcart? <br /> A: Not a lot! We’re a
