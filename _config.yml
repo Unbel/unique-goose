@@ -5,6 +5,9 @@ title: Snipcart
 # snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.css'
 # snipcart_api_key: 'OWExMjk4YWUtNTBlNS00OTVhLTlmZWMtODQ1MjA4N2QxNGZmNjM2ODk3NjQzNTM5NjU2MTcx'
 # YzI3ZjYxZTEtZDY1My00YTBlLWFiYzItMDUzMzI2ZjkxNTBlNjM2OTA0MzEyODg0MzI2NzU4
+snipcart_js: 'https://cdn.snipcart.com/scripts/2.0/snipcart.js'
+snipcart_css: 'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css'
+snipcart_api_key: 'YzI3ZjYxZTEtZDY1My00YTBlLWFiYzItMDUzMzI2ZjkxNTBlNjM2OTA0MzEyODg0MzI2NzU4'
 logos:
   light:
     optimized: images/logo-white.svg
