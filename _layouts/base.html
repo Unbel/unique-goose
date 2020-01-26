@@ -11,14 +11,18 @@
         <link rel="stylesheet" href="{{ site.snipcart_css }}" />
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
         <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | relative_url }}">
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <!-- <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YzI3ZjYxZTEtZDY1My00YTBlLWFiYzItMDUzMzI2ZjkxNTBlNjM2OTA0MzEyODg0MzI2NzU4" id="snipcart"></script>
 
+        <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" /> -->
     </head>
     <body>
 
         {{ content }}
         <script src="{{ 'js/main.js' | relative_url }}"></script>
         <script src="{{ site.snipcart_js }}" defer></script>
-        
+
         <!-- <script type="text/javascript" src="/locales/ru.js" defer></script> -->
 
         <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
@@ -84,5 +88,66 @@
             </div>
           </checkout>
         </div>
+        <script type="text/javascript">
+
+          Snipcart.api.configure('show_continue_shopping', true);
+          Snipcart.execute('config', 'show_continue_shopping', true);
+
+
+          Snipcart.subscribe('page.changed', function (page) {
+              console.log(page);
+              var cart = Snipcart.api.cart.get();
+              if (page == "billing-address")  // ВЫЗОВ ФУНКЦИИ ТОЛЬКО КОГДА billing adress  бля всего то "==" поставил и заработоло кажись
+                {
+                  // var billname = cart.customFields[0].value;
+                  // console.log(billname);
+                  // set Snipcart.api.cart.phone.required = true   хз как это сделать....,
+                // try set billing details here
+                 Snipcart.api.cart.billingAddress({
+                                // "name": "кому?",
+                                //"email": "YOUR@MAIL.not.required",
+                                // "address1": "",
+                                "address2": "--------------------",
+                                "city": "Волжский",
+                                "province": "Волгоградская область",
+                                "country": "Россия",
+                                "company": "---------------------",
+                                "postalCode": "-------------------",
+                                "phone" : "+7 - "
+              }).then (function (cart)
+                   {
+                     console.log (cart); // It will contain the cart details with updated values.
+                   });
+
+                }
+
+                //ТУТ ниже для доставки на всякйи случай
+                if (page == "shipping-address")  // ВЫЗОВ ФУНКЦИИ ТОЛЬКО КОГДА shipping adress
+                  {
+                    // var billname = cart.customFields[0].value;
+                    // console.log(billname);
+                    // set Snipcart.api.cart.phone.required = true   хз как это сделать....,
+                  // try set billing details here
+                   Snipcart.api.cart.shippingAddress({
+                                  // "name": "кому?",
+                                  //"email": "YOUR@MAIL.not.required",
+                                  // "address1": "",
+                                  "address2": "--------------------",
+                                  "city": "Волжский",
+                                  "province": "Волгоградская область",
+                                  "country": "Россия",
+                                  "company": "---------------------",
+                                  "postalCode": "-------------------",
+                                  "phone" : "+7 - "
+                }).then (function (cart)
+                     {
+                       console.log (cart); // It will contain the cart details with updated values.
+                     });
+        }
+        //УРААААА а "}" всетаки коварная штучка
+          });
+
+
+        </script>
     </body>
 </html>
