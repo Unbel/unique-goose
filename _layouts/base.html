@@ -94,9 +94,11 @@
           Snipcart.execute('config', 'show_continue_shopping', true);
           document.addEventListener('snipcart.ready', () => {
           Snipcart.api.cart.update({
-            email: "affffyo@domain.com",
+
             billingAddress: {
-                name: "Test"
+                fullName: "Test",
+                email: "affffyo@domain.com",
+                postalCode: "Test13"
             }
           });
           }  catch (error) {
