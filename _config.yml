@@ -1,5 +1,5 @@
-baseurl: https://unique-goose-2e6ac.netlify.app/
-# baseurl: /
+# baseurl: https://unique-goose-2e6ac.netlify.app
+baseurl: /
 permalink: '/:title/'
 title: Snipcart
 # snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.js'
