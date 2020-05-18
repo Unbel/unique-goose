@@ -24,10 +24,10 @@
 
 ;(function(window, document, undefined){
   var classes = [];
-  
+
 
   var tests = [];
-  
+
 
   /**
    *
@@ -76,7 +76,7 @@
     }
   };
 
-  
+
 
   // Fake some of Object.create so we can force non test results to be non "own" properties.
   var Modernizr = function() {};
@@ -86,7 +86,7 @@
   // Overwrite name so constructor name is nicer :D
   Modernizr = new Modernizr();
 
-  
+
 
   /**
    * is returns a boolean if the typeof an obj is exactly type.
@@ -181,7 +181,7 @@
    */
 
   var docElement = document.documentElement;
-  
+
 
   /**
    * A convenience helper to check if the document we are running in is an SVG document
@@ -191,7 +191,7 @@
    */
 
   var isSVG = docElement.nodeName.toLowerCase() === 'svg';
-  
+
 
   /**
    * setClasses takes an array of class names and adds them to the root element
@@ -263,7 +263,7 @@
     }
   })();
 
-  
+
 
 
    // _l tracks listeners for async tests, as well as tests that execute after the initial run
@@ -470,7 +470,7 @@
     ModernizrProto.addTest = addTest;
   });
 
-  
+
 
 /*!
 {
@@ -640,7 +640,7 @@ draggableItems.forEach((element) => {
   element.addEventListener("mousemove", moveHandler, false)
 })
 
-function elementStateHandler(event) { 
+function elementStateHandler(event) {
   let target = event.currentTarget
   if (event.type == "mousedown" || event.type == "touchstart") {
     target.isActive = true
@@ -667,7 +667,7 @@ function moveHandler(event) {
     let xCursorDif = currentXPos - lastCursorX
     if (xCursorDif > 0 || xCursorDif < 0) stopScroll()
     lastCursorX = currentXPos
-    
+
     const translateX = new WebKitCSSMatrix(target.style.transform).e
     const newValue = translateX + (xCursorDif*2)
     if (newValue <= 0 && newValue >= (-1 * target.clientWidth + 300)) target.style.transform = `translateX(${newValue}px)`
@@ -677,7 +677,7 @@ function moveHandler(event) {
 
 // Reset the positioning when elements go from list (mobile) to desktop
 window.onresize = function() {
-  if (window.innerWidth > 768) 
+  if (window.innerWidth > 768)
     draggableItems.forEach(element => element.style.transform = `translateX(0px)`)
 }
 
@@ -693,4 +693,20 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
       window.location = link;
     }
   });
+});
+
+
+Snipcart.api.configure('show_continue_shopping', true);
+Snipcart.execute('config', 'show_continue_shopping', true);
+document.addEventListener('snipcart.ready', () => {
+Snipcart.api.cart.update({
+
+  billingAddress: {
+      fullName: "Test",
+      email: "affffyo@domain.com",
+      postalCode: "Test13"
+  }
+});
+}  catch (error) {
+    console.log(error);
 });
