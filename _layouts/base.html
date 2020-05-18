@@ -94,31 +94,23 @@
           Snipcart.execute('config', 'show_continue_shopping', true);
 
 
-          try {
-              await Snipcart.api.cart.update({
-                  email: 'john.doe@example.com',
-                  billingAddress:{
-                      name: 'John Doe'
-                  }
-              });
-          } catch (error) {
-              console.log(error);
-          }
+          // try {
+          //     await Snipcart.api.cart.update({
+          //         email: 'john.doe@example.com',
+          //         billingAddress:{
+          //             name: 'John Doe'
+          //         }
+          //     });
+          // } catch (error) {
+          //     console.log(error);
+          // }
           // document.addEventListener('snipcart.ready', () => {
-          // Snipcart.api.cart.update({
-          //   email: "ayo@domain.com",
-          //   // shipToBillingAddress : true,
-          //   billingAddress: {
-          //       name: "Test",
-          //       company: null,
-          //       address1: "Test123",
-          //       city: "Test",
-          //       country: "Test12312",
-          //       postalCode: "Test13",
-          //       province: "Test123",
-          //       phone: null,
-          //       shippingSameAsBilling : true
-          //   }
+          Snipcart.api.cart.update({
+            email: "asssssssssyo@domain.com",
+            // shipToBillingAddress : true,
+            billingAddress: {
+                name: "Test"
+            }
             // "shipToBillingAddress": true,
             //     "billingAddress": {
             //         "name": "John Doe",
