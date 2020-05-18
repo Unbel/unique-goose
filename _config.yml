@@ -1,4 +1,5 @@
-baseurl: https://unique-goose-2e6ac.netlify.app/
+# baseurl: https://unique-goose-2e6ac.netlify.app/
+baseurl: /
 permalink: '/:title/'
 title: Snipcart
 # snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.js'
@@ -42,8 +43,8 @@ palettes:
       bg_image_primary_fallback: /images/header.jpg
       bg_image_secondary_optimized: /images/leaf-light-grey.svg
       bg_image_secondary_fallback: /images/leaf-light-grey.svg
-      bg_image_product_optimized: /images/leaf.svg
-      bg_image_product_fallback: /images/leaf.svg
+      # bg_image_product_optimized: /images/leaf.svg
+      # bg_image_product_fallback: /images/leaf.svg
       bg_image_cart_optimized: /images/cart-bg.webp
       bg_image_cart_fallback: /images/header.jpg
 sass:
