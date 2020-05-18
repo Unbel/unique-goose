@@ -95,22 +95,18 @@
           document.addEventListener('snipcart.ready', () => {
           Snipcart.api.cart.update({
             email: "ayo@domain.com",
-            shippingAddress: {
-                fullName: "Test123",
-                firstName: null,
+            billingAddress: {
                 name: "Test",
                 company: null,
-                address1: "Test123",
-                address2: "Test",
-                fullAddress: "Test" + "-Test",
-                city: "Test",
-                country: "Test12312",
-                postalCode: "Test13",
+                address1: "Test12sssssssssss3",
+                postalCode: "555555555555",
                 province: "Test123",
                 phone: null,
                 vatNumber: null
             }
           });
+          }  catch (error) {
+              console.log(error);
           });
           // try {
           //     await Snipcart.api.cart.update({
