@@ -4,22 +4,16 @@ headline: Вопросы и ответы
 introduction: Часто задаваемые вопросы и ответы про cookson
 questions:
 - question: Как долго ждать?
-  answer: 'На следующий рабочий день, так что, заказывайте с расчетом на
-    будущее! '
+  answer: 'В среднем 1 час, а также зависит от расстояния'
 - question: А есть ли скидки?
   answer: "ДА! по городу за заказ свыше 600 рублей доставка будет бесплатна!  \nА
     в ближайшие поселения при заказе от 1500 рублей!\n\nКроме того вы можете подписаться
-    на наш [инстаграм](https://www.instagram.com/cook_son34/?hl=en), иногда мы устраиваем интересные квесты на получение хорошей
-    скидки!!"
+    на наш [инстаграм](https://www.instagram.com/cook_son34/?hl=en), там мы частенько устраиваем интересные квесты на получение хорошей скидки!!"
 - question: Как происходит заказ?
-  answer: 'Вы выбирате товары, и добавляете их в корзину, затем открываете свою корзину
-    и заполняете форму для связи и доставки. Оплата курьеру, при доставке. '
+  answer: 'Вы выбирате товары, и добавляете их в корзину, затем нажимаете оформить заказ, для вашего удобства мы заполнили неважные поля, но вам необходимо дописать информацию для связи и адреса доставки. Вписывать можно что угодно и куда угодно главное, оставить контакты.  Оплата курьеру, при доставке. Если вы оставите свой email то вам прийдет чек.'
 - question: Блиц
-  answer: 'Q: Часы работы? <br /> A: Мы развозим и принимаем заказы с 10.00 до 22.00  <br /><br /> Q: Why did you build a theme for
-    Stackbit? <br /> A: We believe in Stackbit’s promise of opening up the JAMstack
-    to more developers. Plus, we trust these folks. [Read more about Stackbit](http://bit.ly/2YAvGix).
-    <br /><br /> Q: How many people work at Snipcart? <br /> A: Not a lot! We’re a
-    small, bootstrapped team of eight human beings. Michael might be a robot, though.
+  answer: 'Q: Часы работы? <br /> A: Мы развозим и принимаем заказы ежедневно с 10.00 до 22.00  <br /><br /> Q: Вы готовите сами? И все свежее? <br /> A: Да, буквально - прямо с грядки.
+    <br /><br /> Q: Что если я не получил заказ? <br /> A: Возможно нам показалось что вы робот, или вы не заполнили необходимые поля.
     <br /><br /> Q: Why is Snipcart based in Québec City? <br /> A: Have you been
     here? It’s beaaautiful! <br /><br /> Q: What’s the meaning of life? <br /> A:
     We’re not quite sure. But building useful products with people we love feels meaningful
