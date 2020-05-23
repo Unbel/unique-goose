@@ -14,18 +14,18 @@ price: '200.00'
 images:
   default:
     thumbnail:
-      optimized: /images/Кукси.jpg
-      fallback: /images/Кукси.jpg
+      optimized: /images/cooksi.jpg
+      fallback: /images/cooksi.jpg
     original:
-      optimized: /images/Кукси2.jpg
-      fallback: /images/Кукси2.jpg
+      optimized: /images/cooksi2.jpg
+      fallback: /images/cooksi2.jpg
   featured:
     thumbnail:
-      optimized: /images/Кукси.jpg
-      fallback: /images/Кукси.jpg
+      optimized: /images/cooksi.jpg
+      fallback: /images/cooksi.jpg
     original:
-      optimized: /images/Кукси2.jpg
-      fallback: /images/Кукси2.jpg
+      optimized: /images/cooksi2.jpg
+      fallback: /images/cooksi2.jpg
 category: блюдо
 featured: true
 section: Store

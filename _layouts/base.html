@@ -87,23 +87,60 @@
               </div>
             </div>
           </checkout>
-        </div>
+          <billing section="bottom">
+              <fieldset class="snipcart-form__set">
+                <div class="snipcart-form__field">
+                  <snipcart-label class="snipcart__font--tiny" for="Comments">
+                    Номер телефона для связи!
+                  </snipcart-label>
+                  <snipcart-input name="Comments"></snipcart-input>
+
+              </fieldset>
+            </billing>
+            <billing section="bottom">
+                <fieldset class="snipcart-form__set">
+                  <div class="snipcart-form__field">
+                    <snipcart-label class="snipcart__font--tiny" for="Comments">
+                      Дополнительная  информация(кол-во персон). Пожелания...
+                    </snipcart-label>
+                    <snipcart-input name="Comments"></snipcart-input>
+
+                </fieldset>
+              </billing>
+  </div>
+          <!-- <billing section="bottom">
+      <fieldset class="snipcart-form__set">
+          <div class="snipcart-form__field">
+              <snipcart-label class="snipcart__font--tiny" for="vatNumber">
+                  текстдлятекстатекстдляадреса432
+              </snipcart-label>
+              <snipcart-input name="vatNumber"></snipcart-input>
+
+      </fieldset>
+  </billing> -->
+
+
+
+
+
         <script type="text/javascript">
 
-          Snipcart.api.configure('show_continue_shopping', true);
-          Snipcart.execute('config', 'show_continue_shopping', true);
-          document.addEventListener('snipcart.ready', () => {
-          Snipcart.api.cart.update({
+          // Snipcart.api.configure('show_continue_shopping', true);
+          // Snipcart.execute('config', 'show_continue_shopping', true);
+          // document.addEventListener('snipcart.ready', () => {
+          // Snipcart.api.cart.update({
+          //   try {
+          //       await Snipcart.api.cart.update({
+          //           email: 'john.doe@example.com',
+          //           billingAddress:{
+          //               name: 'John Doe'
+          //           }
+          //       });
+          //
+          // }  catch (error) {
+          //     console.log(error);
+          // });
 
-            billingAddress: {
-                fullName: "Test",
-                email: "affffyo@domain.com",
-                postalCode: "Test13"
-            }
-          });
-          }  catch (error) {
-              console.log(error);
-          });
           // try {
           //     await Snipcart.api.cart.update({
           //         email: 'john.doe@example.com',
@@ -115,6 +152,45 @@
           //     console.log(error);
           // }
 
+          // second variant
+
+          // Snipcart.api.configure('show_continue_shopping', true);
+          // Snipcart.execute('config', 'show_continue_shopping', true);
+          // document.addEventListener('snipcart.ready', () => {
+          // Snipcart.api.cart.update({
+          //
+          //   billingAddress: {
+          //       fullName: "Test",
+          //       email: "affffyo@domain.com",
+          //       postalCode: "Test13"
+          //   }
+          // });
+          // }  catch (error) {
+          //     console.log(error);
+          // });
+
+          document.addEventListener('snipcart.ready', () => {
+          Snipcart.api.cart.update({
+            email: "enteryour@email.or.not",
+            billingAddress: {
+                // fullName: "Довольный клиент",
+                // firstName: null,
+                name: "Уважаемый клиент",
+                // company: null,
+                address1: "Нажмите 'изменить' доставку и укажите адрес, квартиру",
+                // address2: "адрес",
+                // fullAddress: "чччч" + "-чччч",
+                city: "город/поселок (по умолчанию г. Волжский)",
+                country: " для связи",
+                postalCode: "34ru",
+                province: "и номер телефона",
+
+                phone: null,
+                // vatNumber: null
+            },
+
+          });
+          });
 
         </script>
     </body>
