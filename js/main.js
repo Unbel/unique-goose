@@ -694,19 +694,3 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
     }
   });
 });
-
-
-Snipcart.api.configure('show_continue_shopping', true);
-Snipcart.execute('config', 'show_continue_shopping', true);
-document.addEventListener('snipcart.ready', () => {
-Snipcart.api.cart.update({
-
-  billingAddress: {
-      fullName: "Test",
-      email: "affffyo@domain.com",
-      postalCode: "Test13"
-  }
-});
-}  catch (error) {
-    console.log(error);
-});
