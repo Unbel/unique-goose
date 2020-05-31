@@ -37,7 +37,7 @@
         <script src="{{ 'js/main.js' | relative_url }}"></script>
         <script src="{{ site.snipcart_js }}" defer></script>
 
-        <script type="text/javascript" src="/locales/ru.js" defer></script>
+        <!-- <script type="text/javascript" src="/locales/ru.js" defer></script> -->
 
         <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
           <cart-header title="Planty">
@@ -185,19 +185,19 @@
 
           document.addEventListener('snipcart.ready', () => {
           Snipcart.api.cart.update({
-            email: "введите@email.для_чека",
+            email: "введитеИлиНет@email.для_чека",
             billingAddress: {
                 // fullName: "Довольный клиент",
                 // firstName: null,
-                name: "Уважаемый клиент",
+                name: "Голодный клиент",
                 // company: null,
-                address1: "Нажмите 'изменить' доставку и укажите адрес, квартиру",
+                address1: "Нажмите 'изменить'",
                 // address2: "адрес",
                 // fullAddress: "чччч" + "-чччч",
-                city: "по умолчанию г. Волжский",
+                city: "укажите адрес",
                 country: " для связи",
-                postalCode: "34ru",
-                province: "и номер телефона: ",
+                postalCode: "vlz34",
+                province: "и телефон: +7 ",
 
                 phone: null,
                 // vatNumber: null

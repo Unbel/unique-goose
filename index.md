@@ -4,4 +4,4 @@ isHome: true
 layout: index
 
 ---
-# Cookson, повар из сердца Кореи
+# Cook-Son
