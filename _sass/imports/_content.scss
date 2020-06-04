@@ -21,17 +21,17 @@
         font-size: $font_size_large;
 
         &--light {
-            svg path { fill: $color_light; }
+            svg path { fill: orange; }
             // color: $color_light;
         }
 
         &--dark {
-            svg path { fill: $color_dark; }
+            svg path { fill: green; }
             color: $color_dark;
         }
 
         &--medium {
-            svg path { fill: $color_medium; }
+            svg path { fill: red; }
             color: $color_medium;
         }
 
