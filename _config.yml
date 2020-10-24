@@ -8,8 +8,8 @@ title: Snipcart
 # language: ru
 # testapi YzI3ZjYxZTEtZDY1My00YTBlLWFiYzItMDUzMzI2ZjkxNTBlNjM2OTA0MzEyODg0MzI2NzU4
 
-snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.13/default/snipcart.js'
-snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.13/default/snipcart.css'
+snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.23/default/snipcart.js'
+snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.23/default/snipcart.css'
 snipcart_api_key: 'YzI3ZjYxZTEtZDY1My00YTBlLWFiYzItMDUzMzI2ZjkxNTBlNjM2OTA0MzEyODg0MzI2NzU4'
 
 

@@ -96,7 +96,7 @@
     &__button-icon {
       svg {
         path {
-          fill: $color_light;
+          fill: #dbec4e;
         }
       }
     }
@@ -114,6 +114,23 @@
     padding-top: 25px;
   }
 }
+.sticky1 {
+    position: fixed; /* Фиксированное положение */
+    right: 130px; /* Расстояние от правого края окна браузера */
+    top: 1px; /* Расстояние сверху */
+    padding: 3px; /* Поля вокруг текста */
+    background: #ffe; /* Цвет фона */
+    // border: 1px solid #333; /* Параметры рамки */
+   }
+
+.sticky2 {
+       position: fixed; /* Фиксированное положение */
+       right: 10px; /* Расстояние от правого края окна браузера */
+       top: 1px; /* Расстояние сверху */
+       padding: 3px; /* Поля вокруг текста */
+       background: #ffe; /* Цвет фона */
+       // border: 1px solid #333; /* Параметры рамки */
+      }
 
 .header-wrapper {
   &__overlay {

@@ -35,11 +35,11 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/55798282" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
         <script src="{{ 'js/main.js' | relative_url }}"></script>
-        <script src="{{ site.snipcart_js }}" defer></script>
+        <script src="{{ site.snipcart_js }}"  defer> </script>
 
         <script type="text/javascript" src="/locales/ru.js" defer></script>
 
-        <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
+        <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}" data-config-add-product-behavior="none" >
           <cart-header title="Planty">
             <div class="root">
               <header class="snipcart-cart-header" v-if="!loading">
@@ -107,7 +107,7 @@
                   <snipcart-label class="snipcart__font--tiny" for="Comments">
                     Номер телефона для связи!
                   </snipcart-label>
-                  <snipcart-input name="Comments"></snipcart-input>
+                  <snipcart-input required name="Comments"></snipcart-input>
 
               </fieldset>
             </billing>
@@ -122,6 +122,16 @@
                 </fieldset>
               </billing>
   </div>
+
+  <payment section="top">
+            <div>
+                <p>
+                    <snipcart-checkbox name="privacy-policy" required></snipcart-checkbox>
+                    <snipcart-label for="privacy-policy">I have read and agree to the&nbsp;<a href="#">Privacy Policy</a></snipcart-label>
+                </p>
+            </div>
+        </payment>
+
           <!-- <billing section="bottom">
       <fieldset class="snipcart-form__set">
           <div class="snipcart-form__field">
@@ -140,7 +150,8 @@
         <script type="text/javascript">
 
           // Snipcart.api.configure('show_continue_shopping', true);
-          // Snipcart.execute('config', 'show_continue_shopping', true);
+          // Snipcart.api.cart('show_cart_automatically', false);
+
           // document.addEventListener('snipcart.ready', () => {
           // Snipcart.api.cart.update({
           //   try {
@@ -185,17 +196,17 @@
 
           document.addEventListener('snipcart.ready', () => {
           Snipcart.api.cart.update({
-            email: "введитеИлиНет@email.для_чека",
+            email: "введитеСвой@email.для_чека",
             billingAddress: {
                 // fullName: "Довольный клиент",
                 // firstName: null,
-                name: "Голодный клиент",
+                name: "Любимый клиент",
                 // company: null,
-                address1: "Нажмите 'изменить'",
+                address1: "Укажите адрес",
                 // address2: "адрес",
                 // fullAddress: "чччч" + "-чччч",
-                city: "укажите адрес",
-                country: " для связи",
+                city: "доставки",
+                country: "для связи",
                 postalCode: "vlz34",
                 province: "и телефон: +7 ",
 
@@ -205,7 +216,25 @@
 
           });
           });
-
+Snipcart.execute('config', 'show_continue_shopping', true);
         </script>
+        <script>
+    document.addEventListener('snipcart.ready', function() {
+        Snipcart.api.session.setLanguage('ru', {
+            "payment": {
+              "methods": {
+                    "deferred_payment": "Оплата при доставке"
+                },
+                "form": {
+                    "deferred_payment_title": "Оплата при получении",
+                    "deferred_payment_instructions": "При получении вы расплатитесь"
+                }
+            }
+        });
+    });
+</script>
+
+
+
     </body>
 </html>
