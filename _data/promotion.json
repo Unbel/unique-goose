@@ -6,7 +6,7 @@
     "fallback": "/images/foot.jpg"
   },
   "cta": {
-    "text": "Изучить меню",
+    "text": "открыть меню",
     "link": "/store"
   }
 }
